@@ -138,6 +138,34 @@ document.addEventListener("DOMContentLoaded", () => {
       readTime: "4 min read",
     },
   ];
+  // THEME TOGGLE LOGIC
+  const themeToggleBtn = document.getElementById("themeToggleBtn");
+  const currentTheme = localStorage.getItem("yishak_blog_theme") || "dark";
+
+  // Set initial theme on load
+  if (currentTheme === "light") {
+    document.documentElement.setAttribute("data-theme", "light");
+    if (themeToggleBtn) themeToggleBtn.textContent = "☀️";
+  } else {
+    document.documentElement.setAttribute("data-theme", "dark");
+    if (themeToggleBtn) themeToggleBtn.textContent = "🌙";
+  }
+
+  // Toggle button click handler
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener("click", () => {
+      const activeTheme = document.documentElement.getAttribute("data-theme");
+      if (activeTheme === "light") {
+        document.documentElement.setAttribute("data-theme", "dark");
+        localStorage.setItem("yishak_blog_theme", "dark");
+        themeToggleBtn.textContent = "🌙";
+      } else {
+        document.documentElement.setAttribute("data-theme", "light");
+        localStorage.setItem("yishak_blog_theme", "light");
+        themeToggleBtn.textContent = "☀️";
+      }
+    });
+  }
 
   // DOM ELEMENTS
   const postsContainer = document.getElementById("postsContainer");
