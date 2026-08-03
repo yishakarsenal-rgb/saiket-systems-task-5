@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yishak.dev — Tech Blog & Study Resource Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER / NAVBAR -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">Yishak<span>.dev</span></a>
+
+        <div class="nav-actions">
+          <div class="search-box">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search articles..."
+            />
+          </div>
+          <button class="btn btn-primary" id="openEditorBtn">
+            + Write Article
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <span class="badge">Saiket Systems Internship — Task 5</span>
+        <h1>Developer Thoughts, Engineering Notes & Live Apps</h1>
+        <p>
+          Exploring web architecture, frontend developments, and academic prep
+          tools built during my Computer Science studies.
+        </p>
+      </section>
+
+      <!-- FEATURED VERCEL APPS SECTION -->
+      <section class="section">
+        <div class="section-header">
+          <h2>🚀 Live Applications & Exam Tools</h2>
+          <p>Interactive web apps and study platforms deployed on Vercel</p>
+        </div>
+
+        <div class="apps-grid">
+          <a
+            href="https://spm-examnote.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="app-card"
+          >
+            <div class="app-icon">📚</div>
+            <div class="app-info">
+              <span class="app-tag">Interactive Exam Engine</span>
+              <h3>SPM Exam Prep Note</h3>
+              <p>
+                100-question timed mock exam & study note platform for Software
+                Project Management.
+              </p>
+              <span class="app-link-text">Launch App ↗</span>
+            </div>
+          </a>
+
+          <a
+            href="https://operating-system-exam-prep.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="app-card"
+          >
+            <div class="app-icon">⚙️</div>
+            <div class="app-info">
+              <span class="app-tag">CS Academic Hub</span>
+              <h3>OS Exam Prep App</h3>
+              <p>
+                Comprehensive exam review platform built to master Operating
+                System concepts.
+              </p>
+              <span class="app-link-text">Launch App ↗</span>
+            </div>
+          </a>
+
+          <a
+            href="https://yishak-portfolio-task-1.vercel.app/#about"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="app-card"
+          >
+            <div class="app-icon">💻</div>
+            <div class="app-info">
+              <span class="app-tag">Developer Portfolio</span>
+              <h3>Master Portfolio (Task 1)</h3>
+              <p>
+                Personal developer hub showcasing core projects, skills, and
+                background.
+              </p>
+              <span class="app-link-text">Launch App ↗</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- BLOG ARTICLES SECTION -->
+      <section class="section">
+        <div class="section-header border-top">
+          <h2>✍️ Articles & Insights</h2>
+          <div class="filter-tags" id="filterTags">
+            <button class="tag-btn active" data-tag="all">All</button>
+            <button class="tag-btn" data-tag="Frontend">Frontend</button>
+            <button class="tag-btn" data-tag="Architecture">
+              Architecture
+            </button>
+            <button class="tag-btn" data-tag="Career">Career</button>
+          </div>
+        </div>
+
+        <!-- BLOG POSTS GRID -->
+        <div class="posts-grid" id="postsContainer">
+          <!-- Rendered dynamically by JavaScript -->
+        </div>
+      </section>
+    </main>
+
+    <!-- CREATE / EDIT POST MODAL -->
+    <div class="modal" id="editorModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modalTitle">Create New Article</h3>
+          <button class="close-btn" id="closeEditorBtn">&times;</button>
+        </div>
+        <form id="postForm">
+          <input type="hidden" id="postId" />
+          <div class="form-group">
+            <label for="postTitle">Article Title</label>
+            <input
+              type="text"
+              id="postTitle"
+              placeholder="e.g. Building Modern Navigation Menus in HTML/CSS"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="postCategory">Category Tag</label>
+              <select id="postCategory" required>
+                <option value="Frontend">Frontend</option>
+                <option value="Architecture">Architecture</option>
+                <option value="Career">Career</option>
+                <option value="WebDev">WebDev</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="postImage">Cover Image URL (Optional)</label>
+              <input
+                type="url"
+                id="postImage"
+                placeholder="https://images.unsplash.com/..."
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="postContent">Article Body Content</label>
+            <textarea
+              id="postContent"
+              rows="7"
+              placeholder="Write your post content here..."
+              required
+            ></textarea>
+          </div>
+          <div class="modal-actions">
+            <button type="button" class="btn btn-outline" id="cancelEditorBtn">
+              Cancel
+            </button>
+            <button type="submit" class="btn btn-primary">
+              Publish Article
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ARTICLE READER MODAL -->
+    <div class="modal" id="readerModal">
+      <div class="modal-content reader-content">
+        <button class="close-btn" id="closeReaderBtn">&times;</button>
+        <div id="readerBody">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>
+          &copy; 2026 Yishak Mekuannent. Created for Saiket Systems Internship
+          Task 5.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
