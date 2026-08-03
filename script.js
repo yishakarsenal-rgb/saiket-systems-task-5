@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // INITIAL SEED DATA (6 ARTICLES)
+  // INITIAL SEED DATA (12 ARTICLES)
   const initialPosts = [
     {
       id: "1",
@@ -68,6 +68,74 @@ document.addEventListener("DOMContentLoaded", () => {
         "Sharing your technical journey publicly through GitHub repositories, Vercel deployments, and LinkedIn project showcases creates proof of work for prospective employers.\n\nConsistent milestone tracking, engaging in internship tasks, and writing technical documentation help solidify complex web engineering concepts.",
       date: "Jul 05, 2026",
       readTime: "3 min read",
+    },
+    {
+      id: "7",
+      title: "Building RESTful APIs & Microservices with Node.js & Express",
+      category: "Backend",
+      image:
+        "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Backend API design focuses on standardizing request handling, response status codes, and security authentication middleware.\n\nStructuring modular controllers, route handlers, and error boundaries in Node.js ensures robust server-side application logic capable of serving data to web and mobile clients.",
+      date: "Jun 28, 2026",
+      readTime: "4 min read",
+    },
+    {
+      id: "8",
+      title: "Relational vs NoSQL Databases: Structuring Data for Web Apps",
+      category: "Database",
+      image:
+        "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Choosing between relational SQL databases (like MySQL and PostgreSQL) and document-based NoSQL engines (like MongoDB) depends on application scalability requirements.\n\nWhile SQL ensures strict data integrity through foreign keys and ACID transactions, NoSQL provides dynamic schema flexibility ideal for rapid iterative development.",
+      date: "Jun 20, 2026",
+      readTime: "5 min read",
+    },
+    {
+      id: "9",
+      title: "Asynchronous JavaScript: Mastering Promises & Async/Await",
+      category: "Frontend",
+      image:
+        "https://images.unsplash.com/photo-1579403124614-197f69d8187b?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Managing asynchronous operations cleanly prevents callback hell and ensures non-blocking UI interactions.\n\nUsing ES6 Promises and modern `async/await` syntax allows developers to write asynchronous data-fetching logic that reads synchronously while handling network failures gracefully with `try...catch` blocks.",
+      date: "Jun 14, 2026",
+      readTime: "3 min read",
+    },
+    {
+      id: "10",
+      title:
+        "Understanding Operating System Memory Management & Process Scheduling",
+      category: "Architecture",
+      image:
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Delving into low-level computing concepts like virtual memory paging, CPU process scheduling algorithms (Round Robin, SJF), and deadlock prevention strategies gives developers deep context on resource allocation.\n\nThese core Computer Science principles directly inform optimization strategies when managing web worker threads and browser event loops.",
+      date: "Jun 08, 2026",
+      readTime: "6 min read",
+    },
+    {
+      id: "11",
+      title:
+        "Preparing for Technical CS Exit Exams: Strategies & Practice Tools",
+      category: "Career",
+      image:
+        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+      content:
+        "A structured study routine combining concept mapping, active recall practice, and timed mock tests is the most effective approach to mastering university exit exams.\n\nBuilding custom exam preparation tools allows students to review key topics across Operating Systems, Internet Programming, and Software Engineering on demand.",
+      date: "May 30, 2026",
+      readTime: "4 min read",
+    },
+    {
+      id: "12",
+      title: "Database Indexing & Query Optimization Techniques",
+      category: "Database",
+      image:
+        "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=800&q=80",
+      content:
+        "As database tables grow to thousands of records, query execution performance depends heavily on proper indexing strategies.\n\nCreating B-Tree indexes on frequently queried columns reduces execution times from full-table scans down to logarithmic lookup times, boosting application response speed.",
+      date: "May 22, 2026",
+      readTime: "4 min read",
     },
   ];
 
