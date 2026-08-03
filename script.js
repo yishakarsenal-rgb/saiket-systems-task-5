@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // INITIAL SEED DATA
+  // INITIAL SEED DATA (6 ARTICLES)
   const initialPosts = [
     {
       id: "1",
@@ -22,6 +22,52 @@ document.addEventListener("DOMContentLoaded", () => {
         "Automated deployment pipelines play a vital role in modern software delivery. Connecting GitHub repositories with Vercel provides instant preview deployments for every push.\n\nWhether hosting full-stack applications or static SPA components, environment configurations and build triggers ensure continuous availability.",
       date: "Jul 28, 2026",
       readTime: "4 min read",
+    },
+    {
+      id: "3",
+      title:
+        "Designing Interactive Exam Prep Apps for Computer Science Students",
+      category: "WebDev",
+      image:
+        "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Developing interactive study hubs—such as the SPM Exam Note and OS Exam Prep tools—requires prioritizing fast user interface responses and immediate feedback loops.\n\nBy leveraging timed mock question sets, score tracking algorithms, and clean typography layouts, students can test their knowledge seamlessly before university exit exams.",
+      date: "Jul 21, 2026",
+      readTime: "5 min read",
+    },
+    {
+      id: "4",
+      title:
+        "Mastering Pure HTML & CSS: Building Responsive Drawers Without JS",
+      category: "Frontend",
+      image:
+        "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
+      content:
+        "While JavaScript is essential for complex application state, pure CSS can handle interactive UI patterns like responsive navigation menus and modal drawers.\n\nUsing the checkbox hack technique (`:checked ~ .nav-menu`) combined with standard CSS transitions allows developers to create lightweight, fast-loading interfaces with zero JavaScript dependencies.",
+      date: "Jul 15, 2026",
+      readTime: "3 min read",
+    },
+    {
+      id: "5",
+      title: "Object-Oriented Design Patterns in Java & Modern Web Development",
+      category: "Architecture",
+      image:
+        "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Understanding Object-Oriented Programming (OOP) principles like encapsulation, inheritance, polymorphism, and abstraction forms the backbone of solid software engineering.\n\nApplying clean class structures in Java translates directly into writing modular, maintainable component logic in modern JavaScript and TypeScript web frameworks.",
+      date: "Jul 10, 2026",
+      readTime: "4 min read",
+    },
+    {
+      id: "6",
+      title: "Navigating Tech Internships & Building a Developer Brand",
+      category: "Career",
+      image:
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+      content:
+        "Sharing your technical journey publicly through GitHub repositories, Vercel deployments, and LinkedIn project showcases creates proof of work for prospective employers.\n\nConsistent milestone tracking, engaging in internship tasks, and writing technical documentation help solidify complex web engineering concepts.",
+      date: "Jul 05, 2026",
+      readTime: "3 min read",
     },
   ];
 
