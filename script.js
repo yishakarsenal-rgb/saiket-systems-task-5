@@ -56,7 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Understanding Object-Oriented Programming (OOP) principles like encapsulation, inheritance, polymorphism, and abstraction forms the backbone of solid software engineering.\n\nApplying clean class structures in Java translates directly into writing modular, maintainable component logic in modern JavaScript and TypeScript web frameworks.",
       date: "Jul 10, 2026",
-      readTime: "4 min read",
     },
     {
       id: "6",
