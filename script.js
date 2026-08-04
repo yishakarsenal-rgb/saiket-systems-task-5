@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Choosing between relational SQL databases (like MySQL and PostgreSQL) and document-based NoSQL engines (like MongoDB) depends on application scalability requirements.\n\nWhile SQL ensures strict data integrity through foreign keys and ACID transactions, NoSQL provides dynamic schema flexibility ideal for rapid iterative development.",
       date: "Jun 20, 2026",
-      readTime: "5 min read",
     },
     {
       id: "9",
