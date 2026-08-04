@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Modern web applications require clean component separation, efficient state management, and seamless routing. During my academic projects and internship tasks at Saiket Systems, leveraging modular structure has drastically improved maintainability.\n\nKey takeaways include establishing reusable component trees, configuring client-side storage mechanisms, and implementing crisp glassmorphism UI layouts.",
       date: "Aug 2, 2026",
-      readTime: "3 min read",
     },
     {
       id: "2",
