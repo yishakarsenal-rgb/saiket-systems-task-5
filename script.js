@@ -112,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Delving into low-level computing concepts like virtual memory paging, CPU process scheduling algorithms (Round Robin, SJF), and deadlock prevention strategies gives developers deep context on resource allocation.\n\nThese core Computer Science principles directly inform optimization strategies when managing web worker threads and browser event loops.",
       date: "Jun 08, 2026",
-      readTime: "6 min read",
     },
     {
       id: "11",
