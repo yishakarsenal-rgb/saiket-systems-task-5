@@ -124,7 +124,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "A structured study routine combining concept mapping, active recall practice, and timed mock tests is the most effective approach to mastering university exit exams.\n\nBuilding custom exam preparation tools allows students to review key topics across Operating Systems, Internet Programming, and Software Engineering on demand.",
       date: "May 30, 2026",
-      readTime: "4 min read",
     },
     {
       id: "12",
