@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "While JavaScript is essential for complex application state, pure CSS can handle interactive UI patterns like responsive navigation menus and modal drawers.\n\nUsing the checkbox hack technique (`:checked ~ .nav-menu`) combined with standard CSS transitions allows developers to create lightweight, fast-loading interfaces with zero JavaScript dependencies.",
       date: "Jul 15, 2026",
-      readTime: "3 min read",
     },
     {
       id: "5",
