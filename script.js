@@ -67,7 +67,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Sharing your technical journey publicly through GitHub repositories, Vercel deployments, and LinkedIn project showcases creates proof of work for prospective employers.\n\nConsistent milestone tracking, engaging in internship tasks, and writing technical documentation help solidify complex web engineering concepts.",
       date: "Jul 05, 2026",
-      readTime: "3 min read",
     },
     {
       id: "7",
