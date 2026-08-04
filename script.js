@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Backend API design focuses on standardizing request handling, response status codes, and security authentication middleware.\n\nStructuring modular controllers, route handlers, and error boundaries in Node.js ensures robust server-side application logic capable of serving data to web and mobile clients.",
       date: "Jun 28, 2026",
-      readTime: "4 min read",
     },
     {
       id: "8",
