@@ -135,7 +135,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "As database tables grow to thousands of records, query execution performance depends heavily on proper indexing strategies.\n\nCreating B-Tree indexes on frequently queried columns reduces execution times from full-table scans down to logarithmic lookup times, boosting application response speed.",
       date: "May 22, 2026",
-      readTime: "4 min read",
     },
   ];
   // THEME TOGGLE LOGIC
