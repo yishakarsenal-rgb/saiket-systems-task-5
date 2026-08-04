@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Automated deployment pipelines play a vital role in modern software delivery. Connecting GitHub repositories with Vercel provides instant preview deployments for every push.\n\nWhether hosting full-stack applications or static SPA components, environment configurations and build triggers ensure continuous availability.",
       date: "Jul 28, 2026",
-      readTime: "4 min read",
     },
     {
       id: "3",
