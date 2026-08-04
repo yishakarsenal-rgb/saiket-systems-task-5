@@ -126,6 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
       date: "May 22, 2026",
     },
   ];
+
   // THEME TOGGLE LOGIC
   const themeToggleBtn = document.getElementById("themeToggleBtn");
   const currentTheme = localStorage.getItem("yishak_blog_theme") || "dark";
@@ -218,7 +219,6 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="post-card-body">
           <div class="post-meta">
             <span class="post-category">${post.category}</span>
-            <span>${post.readTime}</span>
           </div>
           <h3 onclick="openReader('${post.id}')">${post.title}</h3>
           <p>${post.content.substring(0, 110)}...</p>
@@ -283,7 +283,6 @@ document.addEventListener("DOMContentLoaded", () => {
             category,
             image,
             content,
-            readTime: calculateReadTime(content),
           };
         }
         return p;
@@ -301,7 +300,6 @@ document.addEventListener("DOMContentLoaded", () => {
           day: "numeric",
           year: "numeric",
         }),
-        readTime: calculateReadTime(content),
       };
       posts.unshift(newPost);
     }
@@ -349,7 +347,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     readerBody.innerHTML = `
       <div class="reader-header">
-        <span class="post-category">${post.category}</span> • <span>${post.readTime}</span>
+        <span class="post-category">${post.category}</span>
         <h1>${post.title}</h1>
         <div class="reader-meta">Published on ${post.date} by Yishak Mekuannent</div>
       </div>
