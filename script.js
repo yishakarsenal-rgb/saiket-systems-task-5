@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image:
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
       content:
-        "Developing interactive study hubs—such as the SPM Exam Note and OS Exam Prep tools—requires prioritizing fast user interface responses and immediate feedback loops.\n\nBy leveraging timed mock question sets, score tracking algorithms, and clean typography layouts, students can test their knowledge seamlessly before university exit exams.",
+        "Developing interactive study hubs such as the SPM Exam Note and OS Exam Prep tools requires prioritizing fast user interface responses and immediate feedback loops.\n\nBy leveraging timed mock question sets, score tracking algorithms, and clean typography layouts, students can test their knowledge seamlessly before university exit exams.",
       date: "Jul 21, 2026",
     },
     {
