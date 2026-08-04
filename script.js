@@ -184,13 +184,6 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("yishak_blog_posts", JSON.stringify(posts));
   }
 
-  // ESTIMATE READ TIME
-  function calculateReadTime(text) {
-    const words = text.trim().split(/\s+/).length;
-    const minutes = Math.ceil(words / 150);
-    return `${minutes} min read`;
-  }
-
   // RENDER POSTS TO DOM
   function renderPosts() {
     const posts = getPosts();
