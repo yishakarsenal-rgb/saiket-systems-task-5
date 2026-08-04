@@ -100,7 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
       content:
         "Managing asynchronous operations cleanly prevents callback hell and ensures non-blocking UI interactions.\n\nUsing ES6 Promises and modern `async/await` syntax allows developers to write asynchronous data-fetching logic that reads synchronously while handling network failures gracefully with `try...catch` blocks.",
       date: "Jun 14, 2026",
-      readTime: "3 min read",
     },
     {
       id: "10",
