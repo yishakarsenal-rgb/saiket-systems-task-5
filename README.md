@@ -18,14 +18,4 @@ A modern, interactive blogging platform and developer resource hub built with **
 
 * **HTML5:** Semantic architecture, form controls, and accessible modal structures
 * **CSS3:** Custom properties (variables), Flexbox, CSS Grid, light/dark themes, and animations
-* **JavaScript (ES6+):** DOM manipulation, `localStorage` state handling, dynamic rendering, and filtering algorithms
-
----
-
-## 📁 Project Structure
-
-```text
-├── index.html        # Main SPA layout & modal structures
-├── styles.css        # Theme variables, responsive layout, & component styles
-├── script.js        # State logic, CRUD handlers, & theme toggles
-└── README.md         # Project documentation
+* **JavaScript (ES6+):** DOM manipulation, `localStorage` state handling, dynamic rendering, and filtering algorithm.
