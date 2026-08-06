@@ -10,7 +10,7 @@ A modern, interactive blogging platform and developer resource hub built with **
 * **Live Vercel Projects Showcase:** Integrated grid highlighting 8 deployed web apps and exam prep tools.
 * **Real-Time Search & Category Filters:** Search articles dynamically by keywords or filter by tags (`Frontend`, `Architecture`, `Backend`, `Database`, `Career`, `WebDev`).
 * **Dark & Light Mode Toggle:** Smooth theme switching with user preference saved across sessions.
-* **📖 Full Reader View & Editor Modals:** Clean modal interfaces for distraction-free reading and article authoring.
+* **Full Reader View & Editor Modals:** Clean modal interfaces for distraction-free reading and article authoring.
 
 ---
 
