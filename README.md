@@ -14,7 +14,7 @@ A modern, interactive blogging platform and developer resource hub built with **
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **HTML5:** Semantic architecture, form controls, and accessible modal structures
 * **CSS3:** Custom properties (variables), Flexbox, CSS Grid, light/dark themes, and animations
