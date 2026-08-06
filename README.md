@@ -4,7 +4,7 @@ A modern, interactive blogging platform and developer resource hub built with **
 
 ---
 
-## ✨ Features
+## Features
 
 * **✍️ Complete CRUD Operations:** Create, Read, Edit, and Delete blog posts using browser `localStorage` persistence.
 * **🚀 Live Vercel Projects Showcase:** Integrated grid highlighting 8 deployed web apps and exam prep tools.
