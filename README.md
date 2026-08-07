@@ -1,6 +1,6 @@
 # Tech Blog and Study Resource Hub Saiket Systems Internship Task 5
 
-A modern, interactive blogging platform and developer resource hub built with HTML5, CSS3, and Vanilla JavaScript**. Deployed live on Vercel as part of the **Saiket Systems** Web Development Internship.
+A modern, interactive blogging platform and developer resource hub built with HTML5, CSS3, and Vanilla JavaScript. Deployed live on Vercel as part of the Saiket Systems Web Development Internship.
 
 ---
 
