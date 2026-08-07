@@ -6,7 +6,7 @@ A modern, interactive blogging platform and developer resource hub built with HT
 
 * **Complete CRUD Operations:** Create, Read, Edit, and Delete blog posts using browser localStorage persistence.
 * **Live Vercel Projects Showcase:** Integrated grid highlighting 8 deployed web apps and exam prep tools.
-* **Real-Time Search and Category Filters:** Search articles dynamically by keywords or filter by tags (Frontend, Architecture, `Backend`, `Database`, `Career`, `WebDev`).
+* **Real-Time Search and Category Filters:** Search articles dynamically by keywords or filter by tags (Frontend, Architecture, Backend, `Database`, `Career`, `WebDev`).
 * **Dark and Light Mode Toggle:** Smooth theme switching with user preference saved across sessions.
 * **Full Reader View and Editor Modals:** Clean modal interfaces for distraction-free reading and article authoring.
 
