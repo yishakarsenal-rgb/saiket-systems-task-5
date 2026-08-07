@@ -16,4 +16,4 @@ A modern, interactive blogging platform and developer resource hub built with HT
 
 * **HTML5:** Semantic architecture, form controls, and accessible modal structures
 * **CSS3:** Custom properties (variables), Flexbox, CSS Grid, light/dark themes, and animations
-* **JavaScript (ES6+):** DOM manipulation, `localStorage` state handling, dynamic rendering, and filtering algorithm.
+* **JavaScript (ES6+):** DOM manipulation, localStorage state handling, dynamic rendering, and filtering algorithm.
