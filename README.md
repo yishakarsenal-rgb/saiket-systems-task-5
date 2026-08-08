@@ -16,8 +16,8 @@ Features
 
 ---
 
-## Tech Stack
+Tech Stack
 
-- **HTML5:** Semantic architecture, form controls, and accessible modal structures
+- HTML5: Semantic architecture, form controls, and accessible modal structures
 - **CSS3:** Custom properties (variables), Flexbox, CSS Grid, light/dark themes, and animations
 - **JavaScript (ES6+):** DOM manipulation, localStorage state handling, dynamic rendering, and filtering algorithm.
