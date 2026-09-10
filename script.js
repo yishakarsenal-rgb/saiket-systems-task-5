@@ -309,7 +309,6 @@ document.addEventListener("DOMContentLoaded", () => {
     renderPosts();
   });
 
-  // EDIT POST HANDLER
   window.editPost = function (id) {
     const posts = getPosts();
     const post = posts.find((p) => p.id === id);
