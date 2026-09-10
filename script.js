@@ -156,7 +156,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // DOM ELEMENTS
   const postsContainer = document.getElementById("postsContainer");
   const searchInput = document.getElementById("searchInput");
   const filterTags = document.getElementById("filterTags");
