@@ -363,6 +363,5 @@ document.addEventListener("DOMContentLoaded", () => {
     readerModal.classList.remove("active");
   });
 
-  // INITIAL RENDER
   renderPosts();
 });
