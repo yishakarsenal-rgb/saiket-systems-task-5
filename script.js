@@ -257,7 +257,6 @@ document.addEventListener("DOMContentLoaded", () => {
     editorModal.classList.add("active");
   });
 
-  // CLOSE EDIT MODAL
   const closeEditor = () => editorModal.classList.remove("active");
   closeEditorBtn.addEventListener("click", closeEditor);
   cancelEditorBtn.addEventListener("click", closeEditor);
