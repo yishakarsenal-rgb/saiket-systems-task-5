@@ -358,7 +358,6 @@ document.addEventListener("DOMContentLoaded", () => {
     readerModal.classList.add("active");
   };
 
-  // CLOSE READER MODAL
   closeReaderBtn.addEventListener("click", () => {
     readerModal.classList.remove("active");
   });
