@@ -325,7 +325,6 @@ document.addEventListener("DOMContentLoaded", () => {
     editorModal.classList.add("active");
   };
 
-  // DELETE POST HANDLER
   window.deletePost = function (id) {
     if (confirm("Are you sure you want to delete this article?")) {
       let posts = getPosts();
