@@ -127,7 +127,6 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   ];
 
-  // THEME TOGGLE LOGIC
   const themeToggleBtn = document.getElementById("themeToggleBtn");
   const currentTheme = localStorage.getItem("yishak_blog_theme") || "dark";
 
