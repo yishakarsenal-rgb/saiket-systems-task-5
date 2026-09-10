@@ -288,7 +288,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return p;
       });
     } else {
-      // Create new
       const newPost = {
         id: Date.now().toString(),
         title,
