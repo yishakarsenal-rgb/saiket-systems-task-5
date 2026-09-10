@@ -185,7 +185,6 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("yishak_blog_posts", JSON.stringify(posts));
   }
 
-  // RENDER POSTS TO DOM
   function renderPosts() {
     const posts = getPosts();
     const searchTerm = searchInput.value.toLowerCase();
