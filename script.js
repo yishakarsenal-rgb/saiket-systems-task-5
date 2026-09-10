@@ -131,7 +131,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeToggleBtn = document.getElementById("themeToggleBtn");
   const currentTheme = localStorage.getItem("yishak_blog_theme") || "dark";
 
-  // Set initial theme on load
   if (currentTheme === "light") {
     document.documentElement.setAttribute("data-theme", "light");
     if (themeToggleBtn) themeToggleBtn.textContent = "☀️";
