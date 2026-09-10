@@ -235,7 +235,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // SEARCH & FILTER LISTENERS
   searchInput.addEventListener("input", renderPosts);
 
   filterTags.addEventListener("click", (e) => {
