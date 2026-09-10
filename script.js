@@ -171,7 +171,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let activeFilterTag = "all";
 
-  // LOAD POSTS FROM LOCALSTORAGE OR SEED
   function getPosts() {
     const stored = localStorage.getItem("yishak_blog_posts");
     if (!stored) {
