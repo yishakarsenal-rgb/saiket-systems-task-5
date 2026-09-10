@@ -274,7 +274,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let posts = getPosts();
 
     if (id) {
-      // Edit existing
       posts = posts.map((p) => {
         if (p.id === id) {
           return {
