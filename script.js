@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // INITIAL SEED DATA (12 ARTICLES)
   const initialPosts = [
     {
       id: "1",
