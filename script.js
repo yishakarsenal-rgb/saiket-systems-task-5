@@ -140,7 +140,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (themeToggleBtn) themeToggleBtn.textContent = "🌙";
   }
 
-  // Toggle button click handler
   if (themeToggleBtn) {
     themeToggleBtn.addEventListener("click", () => {
       const activeTheme = document.documentElement.getAttribute("data-theme");
