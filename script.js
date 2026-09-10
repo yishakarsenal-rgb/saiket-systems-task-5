@@ -335,7 +335,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // OPEN READER VIEW
   window.openReader = function (id) {
     const posts = getPosts();
     const post = posts.find((p) => p.id === id);
