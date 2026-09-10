@@ -262,7 +262,6 @@ document.addEventListener("DOMContentLoaded", () => {
   closeEditorBtn.addEventListener("click", closeEditor);
   cancelEditorBtn.addEventListener("click", closeEditor);
 
-  // SAVE POST (CREATE OR EDIT)
   postForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const id = document.getElementById("postId").value;
