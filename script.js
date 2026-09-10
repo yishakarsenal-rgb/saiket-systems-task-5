@@ -249,7 +249,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // OPEN EDITOR FOR CREATE
   openEditorBtn.addEventListener("click", () => {
     postForm.reset();
     document.getElementById("postId").value = "";
