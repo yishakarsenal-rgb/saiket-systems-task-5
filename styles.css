@@ -286,7 +286,6 @@ body {
   color: var(--accent);
 }
 
-/* FILTER TAGS */
 .filter-tags {
   display: flex;
   gap: 8px;
@@ -310,7 +309,6 @@ body {
   border-color: var(--accent);
 }
 
-/* POSTS GRID */
 .posts-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
