@@ -232,7 +232,6 @@ body {
   font-size: 0.95rem;
 }
 
-/* VERCEL APPS GRID */
 .apps-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
