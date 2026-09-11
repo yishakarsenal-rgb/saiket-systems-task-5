@@ -16,7 +16,6 @@
   --nav-height: 70px;
 }
 
-/* LIGHT THEME OVERRIDES */
 [data-theme="light"] {
   --bg-dark: #f8fafc;
   --bg-card: #ffffff;
