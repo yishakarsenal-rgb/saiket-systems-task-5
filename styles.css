@@ -71,7 +71,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* Update modal backdrop variable reference */
 .modal {
   display: none;
   position: fixed;
