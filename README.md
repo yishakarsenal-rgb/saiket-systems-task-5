@@ -19,5 +19,4 @@ Features
 Tech Stack
 
 - HTML5:
-- CSS3:
-- JavaScript
+- CSS3 and JavaScript
