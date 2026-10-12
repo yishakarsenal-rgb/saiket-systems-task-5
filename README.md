@@ -18,6 +18,6 @@ Features
 
 Tech Stack
 
-- HTML5: Semantic architecture, form controls, and accessible modal structures
+- HTML5: Semantic architecture, form controls
 - CSS3:
 - JavaScript
