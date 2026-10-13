@@ -14,8 +14,6 @@ Features
 
 - Full Reader View and Editor Modals: Clean modal interfaces for distraction-free reading and article authoring.
 
----
-
 Tech Stack
 
 - HTML5,CSS3 and JavaScript
