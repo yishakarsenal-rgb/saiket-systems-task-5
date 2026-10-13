@@ -12,7 +12,7 @@ Features
 
 - Dark and Light Mode Toggle.
 
-- Full Reader View and Editor Modals: Clean modal interfaces for distraction-free reading and article authoring.
+- Full Reader View and Editor Modals.
 
 Tech Stack
 
