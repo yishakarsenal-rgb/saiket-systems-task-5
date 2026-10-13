@@ -10,7 +10,7 @@ Features
 
 - Real-Time Search and Category Filters: Search articles dynamically by keywords or filter by tags (Frontend, Architecture, Backend, Database, Career, WebDev).
 
-- Dark and Light Mode Toggle: Smooth theme switching with user preference saved across sessions.
+- Dark and Light Mode Toggle.
 
 - Full Reader View and Editor Modals: Clean modal interfaces for distraction-free reading and article authoring.
 
